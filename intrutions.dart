@@ -55,7 +55,7 @@ class InstructionsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF1A1A2E),
-      app: AppBar(
+      appBar: AppBar(
         backgroundColor: const Color(0xFF1A1A2E),
         elevation: 0,
         title: const Text(
