@@ -1,6 +1,5 @@
-// lib/main.dart
 import 'package:flutter/material.dart';
-import 'screens/game_screen.dart';
+import 'screens/main_menu_screen.dart';
 
 void main() {
   runApp(const BuscaMinasApp());
@@ -16,9 +15,9 @@ class BuscaMinasApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.green,
-        scaffoldBackgroundColor: Colors.grey[900],
+        scaffoldBackgroundColor: const Color(0xFF1A1A2E),
       ),
-      home: const GameScreen(),
+      home: const MainMenuScreen(),
     );
   }
 }
