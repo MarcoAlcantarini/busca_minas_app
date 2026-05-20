@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'instructions_screen.dart';
+import '../instructions_screen.dart';
 
 class MainMenuScreen extends StatelessWidget {
   const MainMenuScreen({super.key});
